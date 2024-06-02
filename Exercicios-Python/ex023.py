@@ -1,3 +1,5 @@
+"""Faça um programa que leia um número de 0 a 9999 e mostre na tela cada um dos dígitos separados."""
+
 n = int(input('Informe um número: '))
 print('Analisando o número {}'.format(n))
 print('Unidade: {}'.format(n // 1 % 10))

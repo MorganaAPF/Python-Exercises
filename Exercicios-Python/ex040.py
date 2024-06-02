@@ -1,3 +1,6 @@
+"""Crie um programa que leia duas notas de um aluno e calcule sua média, mostrando uma mensagem no final, de acordo com
+a média atingida, dizendo se ele foi aprovado (>=7), reprovado (<5), ou se está de recuperação (Entre 5 e 6.9)."""
+
 a = float(input('Primeira nota: '))
 b = float(input('Segunda nota: '))
 media = (a + b) / 2

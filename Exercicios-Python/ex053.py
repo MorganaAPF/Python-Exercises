@@ -1,3 +1,6 @@
+"""Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços. Exemplos de
+palíndromos:"""
+
 cont1 = ''
 frase = input('Digite uma frase: ').strip().upper().replace(' ', '')
 print(f'O inverso de {frase} é', end=' ')

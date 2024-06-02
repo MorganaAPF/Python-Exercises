@@ -1,3 +1,6 @@
+"""Crie um programa que leia o nome completo de uma pessoa e mostre: o nome com todas as letras maiúsculas e minúsculas;
+ quantas letras ao todo (sem considerar espaços); quantas letras tem o primeiro nome."""
+
 nome = input('Digite seu nome completo: ').strip()
 split = nome.split()
 print(f'Analisando seu nome...')

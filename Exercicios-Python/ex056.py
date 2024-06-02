@@ -1,3 +1,6 @@
+"""Desenvolva um programa que leia o nome, idade e sexo de 4 pessoas. No final do programa, mostre: a média de idade do
+grupo, qual é o nome do homem mais velho e quantas mulheres têm menos de 20 anos."""
+
 cont = velho = media = 0
 for c in range(1, 5):
     print(f'{" {}ª PESSOA ":-^20}'.format(c))

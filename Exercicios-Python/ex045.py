@@ -1,5 +1,8 @@
+"""Crie um programa que faça o computador jogar Jokenpô com você."""
+
 from random import randint
 from time import sleep
+
 pc = randint(0, 2)
 if pc == 0:
     pct = 'Pedra'

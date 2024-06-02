@@ -1,3 +1,5 @@
+"""Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros."""
+
 n = float(input('Uma distância em metros: '))
 print(f'A medida de {n}m corresponde a: ')
 print(f'{n/1000}km')
