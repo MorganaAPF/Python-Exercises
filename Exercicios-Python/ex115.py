@@ -10,7 +10,8 @@ arq = 'cursoemvideo.txt'
 if not arquivoExiste(arq):
     criarArquivo(arq)
 
-while True:
+resp = 0
+while resp != 3:
     resp = menu(['Ver pessoas cadastradas', 'Cadastrar nova pessoa', 'Sair do sistema'])
     if resp == 1:
         cabeçalho('PESSOAS CADASTRADAS')
@@ -21,7 +22,8 @@ while True:
         idade = leiaint('Idade: ')
         cadastrar(arq, nome, idade)
     elif resp == 3:
-        cabeçalho('Opção 3')
+        cabeçalho('ENCERRANDO SISTEMA...')
     else:
         print('ERRO! Digite uma opção válida!')
     sleep(1.5)
+print('Volte sempre!')

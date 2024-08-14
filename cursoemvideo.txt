@@ -1,0 +1,3 @@
+Júlia;45
+Matheus;18
+Augusta;30
